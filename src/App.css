@@ -1,5 +1,7 @@
 .App {
-    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .users-container {
@@ -9,21 +11,6 @@
     flex-wrap: wrap;
 }
 
-.form-container {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #0002;
-    /*Difumina el fondo*/
-    backdrop-filter: blur(2.5px);
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    z-index: 1;
-}
 
 .disable_form {
     display: none;
@@ -42,10 +29,20 @@
     margin-left: auto;
     margin-right: auto;
 }
+.title_crud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 1px rgba(7, 7, 7, 0.878);
+
+    
+}
 
 .App_btn {
     max-width: 200px;
     width: 100%;
+    font-size: 2rem;
     padding: 10px;
     color: white;
     margin-top: 15px;

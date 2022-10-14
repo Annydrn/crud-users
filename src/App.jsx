@@ -62,13 +62,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Users CRUD</h1>
+      <section className="card_form">
+      <h1 className="title_crud">Users CRUD</h1>
       <FormUsers
         createNewUser={createNewUser}
         updateInfo={updateInfo}
         updateUserById={updateUserById}
         setUpdateInfo={setUpdateInfo}
       />
+      </section>
       {users?.map((user) => (
         <UserCard
           key={user.id}

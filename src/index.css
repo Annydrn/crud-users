@@ -3,13 +3,18 @@
 /*reset*/
 * {
     box-sizing: border-box;
+      margin: 0;
+      padding: 0;
 }
 
 body {
-    background-image:url(./assets/img/OIP.jpg);
-    margin: 0;
+    background-image:url(./assets/img/jed-villejo-bEcC0nyIp2g-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
-    min-width: 100vh;
+
 }
 
 h1,

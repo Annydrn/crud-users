@@ -1,0 +1,49 @@
+.card_form {
+    display: block;
+    margin: 2.8rem;
+    padding: 1rem;
+    padding-top: 3px;
+    margin-bottom: 1.5rem;
+    max-width: 300px;
+    width: 100%;
+    background-color: rgba(240, 243, 236, 0.693);
+    border-radius: 15px;
+    box-shadow: 3px 2px 8px rgba(7, 7, 7, 0.878);
+  
+}
+
+.button_create {
+    margin: 1.2rem;
+    font-size: 1rem;
+    font-family: serif;
+    border: 1px solid #9f6a06;
+    /*anchura, estilo y color borde*/
+    padding: 10px;
+    /*espacio alrededor texto*/
+    background-color: rgb(216, 93, 93,0.8);
+    /*color botón*/
+    color: white;
+    /*color texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif;
+    /*tipografía texto*/
+    border-radius: 50px;
+    /*bordes redondos*/
+}
+
+.button_create:hover {
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 150ms ease;
+
+}
+
+.description{
+display: flex;
+flex-direction: column;
+gap: 2px;
+font-weight: 700;
+color: rgb(78, 71, 71);
+font-size: 18px;
+}
