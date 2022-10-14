@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*reset*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(./assets/img/OIP.jpg);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    min-width: 100vh;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(200, 112, 92, 0.911);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    border: none;
+}
+
+input {
+    outline: none;
+}

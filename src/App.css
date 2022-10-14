@@ -1,0 +1,60 @@
+.App {
+    padding-bottom: 60px;
+}
+
+.users-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    /*Difumina el fondo*/
+    backdrop-filter: blur(2.5px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.disable_form {
+    display: none;
+}
+
+
+.App_container-title {
+    /*top:0;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App_btn {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 150ms ease;
+}
+
+.App_btn:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 10px #0005;
+    transition: transform 150ms ease;
+}
